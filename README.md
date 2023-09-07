@@ -465,6 +465,11 @@ in many Ansible versions, so this feature might not always work.
   assumes consul default ports etc.
 - Default value: **False**
 
+### `nomad_consul_version`
+
+- The version of consul used in native consul zero-configuration
+- Default value: **1.13.2**
+
 ### `nomad_consul_address`
 
 - The address of your consul API, use it in combination with nomad_use_consul=True. If you want to use https, use `nomad_consul_ssl`. Do NOT append https.
